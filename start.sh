@@ -5,7 +5,7 @@ red=`tput setaf 1`
 cyan=`tput setaf 6`
 magenta=`tput setaf 5`
 reset=`tput sgr0`
-link=https://github.com
+link=https://github.com/ofsahof/killing-scripts#uyari-okumadan-geçmeyi̇n
 
 printf "Killing scripts cli aracina hosgeldiniz!\n"
 sleep 2 && clear

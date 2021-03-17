@@ -4,5 +4,6 @@
 
 ## UYARI (OKUMADAN GEÇMEYİN)
 
-Bu scriptler tamamen `eğitim` amaçlı yapılmış olup herhangi bir teşvik yoktur.
-Bu scriptlerin amacı bilgisayarı bozmaktır o yüzden **çalıştırmayın.** Oluşacak hasarlardan kullanıcı sorumludur.
+Bu scriptler tamamen `eğitim` ve `goygoy` amaçlı yapılmıştır.
+Bu scriptlerin amacı bilgisayara yazılımsal hasar vermektir. Test ortamınız dışında **çalıştırmanızı önermiyoruz.** Oluşacak hasarlardan siz çılgın kullanıcılar sorumludur.
+
