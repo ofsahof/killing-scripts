@@ -17,7 +17,7 @@ cd scripts
 while [[ $SELECTION != 1 && $SELECTION != 2 && $SELECTION != 3 ]]
 do
 
-    printf "1: root dizinini siler\n2: hard diski temizler\n3: yüz tane gizli dosya olusturur\n"
+    printf "1: root dizinini siler\n2: hard diski temizler\n3: yüz tane gizli dosya olusturur\n4:sürekli yeniden başlatır\n"
     read -p "${magenta}Lütfen calistirmak istediginiz scripti secin:${reset}" SELECTION
 
     if [[ $SELECTION == 1 ]]; then
@@ -29,8 +29,10 @@ do
         elif [[ $SELECTION == 3 ]]; then
             clear && echo "yuz tane gizli dosya olusturuluyor..." && sleep 2
             bash create-file.sh
+        elif [[ $SELECTION == 4 ]]; then
+            clear && echo "sonsuza kadar yeniden başlatılıyor..." && sleep 2
         else
-            echo "Please enter 1, 2 or 3!"
+            echo "Please enter 1, 2, 3 or 4!"
             sleep 1 && clear
     fi
 done
